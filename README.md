@@ -1,3 +1,15 @@
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+# grabber
+=======
+>>>>>>> Stashed changes
+=======
+<<<<<<< HEAD
+# grabber
+=======
+>>>>>>> Stashed changes
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -22,3 +34,11 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> b744516 (first commit :tada:)
+>>>>>>> Stashed changes
+=======
+>>>>>>> b744516 (first commit :tada:)
+>>>>>>> Stashed changes
