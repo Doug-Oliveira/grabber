@@ -22,8 +22,6 @@
 build/
 *.bridgesupport
 build-iPhoneOS/
-
-
 build-iPhoneSimulator/
 
 ## Specific to RubyMotion (use of CocoaPods):
