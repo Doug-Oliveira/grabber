@@ -12,19 +12,22 @@
 
 <span class="absolute top-0 -left-4 w-72 h-72 bg-indigo-500 rounded-full filter blur-[100px]"></span>
 <span class="absolute bottom-0 -right-4 w-72 h-72 bg-purple-500 rounded-full filter blur-[100px]"></span>
-<div class="flex justify-center h-screen mt-20">
-  <div class="text-center type-container" data-controller="home">
-    <h1 class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-transparent bg-clip-text lg:text-8xl text-7xl font-bold text-center">
-      Download <span id="sentence" class="sentence"></span><span class="input-cursor bg-slate-200 w-0.5 ml-8 inline-block">|</span> <br>Video by Link!
-    </h1>
-    <div class="flex justify-center ">
-      <div class="m-4 p-1 mt-12 rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ml-8 w-9/12">
-        <input class="p-3 fa-light rounded-full bg-zinc-950 border-none text-zinc-400 w-full"
-               type="text" id="link"
-               placeholder="Paste link here!"
-               autocomplete="off">
-
-      </div>
-    </div>
+<div class="mt-20 type-container" data-controller="home">
+  <h1 class="bg-gradient-to-r from-indigo-500 leading-tight via-purple-500 to-pink-500 text-transparent bg-clip-text lg:text-[88px] md:text-7xl text-6xl font-bold text-center">
+    Download <span id="sentence" class="sentence"></span><span class="input-cursor bg-slate-200 w-0.5 ml-8 inline-block">|</span> <br>Video by Link!
+  </h1>
+</div>
+<br/>
+<div class="flex justify-center mt-8">
+  <div class="relative m-4 p-1 rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 lg:w-4/12 md:w-8/12 w-10/12">
+    <button class="absolute right-0 rounded-full bg-pink-500 py-2.5 px-8 text-center text-sm mt-1 mx-2 text-white shadow-md bg-gradient-to-r from-fuchsia-500 via-pink-500 to-pink-500 focus:shadow-none"
+      type="button"
+      data-ripple-light="true">
+      Download
+    </button>
+    <input class="p-3 fa-light rounded-full bg-zinc-950 border-none text-zinc-400 w-full"
+           type="text" id="link"
+           placeholder="Paste link here!"
+           autocomplete="off">
   </div>
 </div>
